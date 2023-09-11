@@ -1,0 +1,84 @@
+body {padding:0; margin:0}
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    padding: none;
+    border: none;
+    background-color:rgb(253, 246, 239);  
+}
+
+/*header ------------------------------*/
+
+#main-header{
+    color: rgb(253, 246, 239);
+    background: #11516d;     
+ }
+#main-header img{
+    align-self: center;
+    margin-right: 20px;
+ }
+
+/*h Section------------------------------*/
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-weight: 500;
+}
+h4{
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*navbar Section------------------------------*/
+
+  
+/*main content------------------------------*/
+
+#main-content{
+
+background-color:rgb(253, 246, 239);
+color:  #11516d;
+
+}
+
+/*Projects Section------------------------------*/
+
+
+
+/*Skills Section------------------------------*/
+.blue{
+background-color:#11516d;
+color:rgb(253, 246, 239); ;
+}
+
+.pale-blue{
+background-color:rgb(253, 246, 239);;
+color:#11516d;
+}
+    
+    
+
+
+
+/*Footer Section------------------------------*/
+
+#footer-css{
+    background-color:rgb(253, 246, 239);
+    color: #11516d;
+    bottom: 0;
+    position: relative;
+}
