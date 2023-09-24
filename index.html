@@ -20,7 +20,7 @@
             </div>
             <div class="col-12 col-lg-6">
                 <h1> Jake Barry</h1>
-                <h2 class="">Developer Portfolio</h2>
+                <h2>Developer Portfolio</h2>
              </div>    
         </div>
     </div>
@@ -44,7 +44,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact" >Contact</a>
-              </li>            
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://vermillion-pika-806ec8.netlify.app/" >Blog</a>
               </li>
             </ul>
           
@@ -129,14 +131,22 @@
                             <p>I'm always open to collaboration and hearing about new projects. Send me an email in form in this section </p>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                              </div>
-                              <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="5"></textarea>
-                              </div>
+                            <form name="contact" netlify>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Name</label>
+                                  <input name="first-name" type="text" class="form-control rounded" id="firstNameInput" required>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input name="email" type="email" class="form-control rounded" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                  <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea name="message" class="form-control rounded" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                </div>
+                                <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
