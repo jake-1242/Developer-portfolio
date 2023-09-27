@@ -1,0 +1,97 @@
+/* global */
+
+/* colors
+dark-purple:rgb(73, 13, 100);
+light-purple:rgb(134, 12, 190);
+background purple: rgb(168, 94, 197)
+
+*/
+
+
+body{
+    margin:0px;
+    padding:20px;
+    color: rgb(246, 233, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(95, 21, 124);
+    
+}
+
+main{
+text-align: ce;
+display: flex;
+justify-content: space-evenly;
+height:auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color:rgb(254, 251, 255);
+
+    
+}
+
+.field{
+padding: 20px;
+
+}
+
+/* calculator */
+
+
+
+button{
+    background-color:rgb(64, 4, 92);;
+    border: none;
+    margin:0px ;
+    color: white;
+   
+    padding: 15px;
+}
+
+button:active{
+    background-color:rgb(134, 12, 190);
+    color:white;
+  
+
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.button-container{
+    padding: 20px;
+}
+
+
+#calculator-container input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgb(73, 13, 100)  ;
+    }
+
+/* results */
+
+
+#results-container{
+    background-color:rgb(248, 238, 252) ;
+    border: 3px solid ;
+    
+    border-radius: 10px;
+
+}
+
+#results-container h2{
+color: rgb(95, 21, 124);
+}
+
+#results-container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px  ;
+    background: whit;
+    }
