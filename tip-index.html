@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    
+   
+
+</head>
+<body>
+    <a href="index.html"><img src="/images/house.png"></a>
+    <h1>Tip calculator</h1>
+    <main id="main">
+        <section id="calculator-container">
+            <form id="calculator" name="calculator">
+                <div class="field">
+                    <label for="totalBeforeTip"><h2>Total Bill Before Tip</h2></label>
+                    <input id="totalBeforeTip" type="number" name="total before tip" placeholder="£" min="1" required>
+                </div>   
+
+                <div class="field">
+                    <label for="tipPercentage"><h2>Tip percentage</h2></label>
+                    <input id="tipPercentage" type="number" placeholder="%" max="100"  >
+                </div>
+
+                <div class="field">
+                    <label for="numberToSplit"><h2>Number of people to split between</h2></label>
+                    <input id="numberToSplit" type="number" min="1" value="1" required>
+                </div>
+
+                <div class="button-container">
+                    <button id="btn-calc" type="submit" class="totalButtons" name="Calculator" >Calculate</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="results-container">
+            <form id="results" name="results"></form>
+                <div class="field">
+                    <label for="total-bill"><h2>Total Bill</h2></label>
+                    <input id="total-bill" name="Bill" type="number" placeholder="0" disabled >
+                </div>
+
+                <div class="field">
+                    <label for="total-tip"><h2>Total Tip</h2></label>
+                    <input name="total-tip" id="total-tip" type="number" min="1" value="1" disabled>
+                </div>
+
+                <div class="field">
+                    <label for="total-per-person"><h2>Total Per Person</h2></label>
+                    <input id="total-per-person" type="number" min="1" value="1" disabled>
+                </div> 
+            </form>
+        </section>
+    </main>
+    <script src="index.js" type="application/javascript"></script>
+  
+</body>
+</html>
