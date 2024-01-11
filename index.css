@@ -95,3 +95,13 @@ color: rgb(95, 21, 124);
     box-shadow: 1px 1px 1px 1px  ;
     background: whit;
     }
+textarea{
+height: 200px;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: rgb(73, 13, 100);
+resize: none;
+border: none;
+
+}
